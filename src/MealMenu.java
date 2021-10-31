@@ -1,13 +1,13 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MealMenu {
 
-    Map<Character, MealCourse> mealMenu = new HashMap<>();
+   List<MealCourse> mealList = new ArrayList<>();
 
-    public void addMealMenu(char ch, MealCourse meal){
-       mealMenu.put(ch, meal);
+    public void addMealMenu(MealCourse meal){
+       mealList.add(meal);
     }
 
-    public Map<Character, MealCourse> getMealMenu(){ return  mealMenu;}
+    public List<MealCourse> getMealMenu(){ return  mealList;}
 }

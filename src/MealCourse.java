@@ -1,7 +1,6 @@
 public interface MealCourse {
 
-
-    public int getTimeAllocate() ;
-
-    public int getSlotAllocate() ;
+    char getMealCourseName();
+    int getTimeAllocate() ;
+    int getSlotAllocate() ;
 }
