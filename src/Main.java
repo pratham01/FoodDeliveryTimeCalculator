@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(MealCourse.A.getSlotAllocate());
+        Restaurant rest = new Restaurant();
+
+        System.out.println(rest.getMenu().getMealMenu().get('A').getSlotAllocate());
     }
 }
