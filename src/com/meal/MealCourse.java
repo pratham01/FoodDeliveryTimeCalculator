@@ -1,3 +1,5 @@
+package com.meal;
+
 public interface MealCourse {
 
     char getMealCourseName();

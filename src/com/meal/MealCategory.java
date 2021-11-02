@@ -1,3 +1,5 @@
+package com.meal;
+
 public enum MealCategory {
     A('A'), M('M');
 

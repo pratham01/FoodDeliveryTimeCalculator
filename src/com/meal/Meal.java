@@ -1,9 +1,11 @@
-public class Meal implements  MealCourse {
+package com.meal;
+
+public class Meal implements MealCourse {
     private char name;
     private int timeAllocate;
     private int slotAllocate;
 
-    Meal(char name, int timeAllocate, int slotAllocate){
+    public Meal(char name, int timeAllocate, int slotAllocate){
         this.name = name;
         this.timeAllocate = timeAllocate;
         this.slotAllocate = slotAllocate;
