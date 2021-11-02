@@ -1,6 +1,7 @@
 package com.restaurant;
 
 import com.meal.Meal;
+import com.meal.MealCategory;
 import com.meal.MealCourse;
 import com.meal.MealMenu;
 
@@ -23,8 +24,8 @@ public class Restaurant implements PropertyDeails {
     }
 
     private void populateMealMenu(){
-        mealMenu.addMealMenu(new Meal('A',17,1));
-        mealMenu.addMealMenu(new Meal('M',29, 2));
+        mealMenu.addMealMenu(new Meal(MealCategory.A.asChar(),17,1));
+        mealMenu.addMealMenu(new Meal(MealCategory.M.asChar(),29, 2));
     }
 
 

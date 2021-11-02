@@ -4,6 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         Restaurant rest = new Restaurant();
+        verifyFlow();
+    }
+
+    private static void verifyFlow() {
         OrderSystem orders = new OrderSystem();
         orders.userOrder(12, new char[]{'A', 'A'}, 5);
         orders.userOrder(21, new char[]{'A', 'M'}, 1);
